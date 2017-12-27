@@ -16,8 +16,6 @@ Solution:
 
 -Open the file "count.html" in Chrome
 
--Right click and Inspect
-
--Press F5 to reload and see the console output
+-Right click, Inspect and see the console output
 
 -The las output line shows that the variable "acum" is not global, since it is not in the global scope
