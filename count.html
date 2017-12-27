@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      (function() {
+      	var acum = 1;
+        var elementId = 0;
+
+        function count(n) {
+          var value = (acum++) + (n ? n-1 : 0);
+          console.log(value);
+          elementId++;;
+        };
+
+        count(); //1
+        count(); //2
+        count(); //3
+        count(5); //8
+      }())
+
+      console.log(acum);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
